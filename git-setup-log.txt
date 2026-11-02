@@ -1,0 +1,152 @@
+﻿**********************
+Windows PowerShell 기록 시작
+시작 시간: 20261102144347
+사용자 이름: BOOK-SRBNAJB3UQ\user
+RunAs 사용자: BOOK-SRBNAJB3UQ\user
+구성 이름: 
+Machine: BOOK-SRBNAJB3UQ (Microsoft Windows NT 10.0.26200.0)
+호스트 응용 프로그램: C:\windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\user\AppData\Local\Programs\Microsoft VS Code\6d62b1d5da\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+프로세스 ID: 12236
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+기록이 시작되었습니다. 출력 파일은 git-setup-log.txt입니다.
+PS C:\Users\user\Desktop\올인원M!\my-first-project> git --version
+
+PS C:\Users\user\Desktop\올인원M!\my-first-project> git status
+
+PS C:\Users\user\Desktop\올인원M!\my-first-project> Get-ChildItem -Force -Name
+screenshots
+site
+01-docker-기록시.png
+02-docker-상태확인-Client.png
+03-docker-상태확인-server.png
+04-docker-기록종료.png
+05-ubuntu-실행.png
+06-ubuntu-기본명령.png
+07-ubuntu-실행상태.png
+08-ubuntu-exec.png
+09-ubuntu-중지확인.png
+10-ubuntu-재시작확인.png
+11-docker-이미지목록.png
+12-ubuntu-로그확인.png
+13-ubuntu-리소스확인.png
+14-권한-변경전.png
+15-권한-변경후.png
+16-권한-755-644.png
+17-ubuntu-운영기록종료.png
+18-웹페이지-파일확인.png
+19-Dockerfile-확인.png
+20-웹서버-이미지빌드.png
+21-웹서버-컨테이너실행.png
+22-웹서버-8080접속.png
+23-웹서버-응답확인.png
+24-바인드마운트-실행.png
+25-바인드마운트-변경전.png
+26-바인드마운트-변경후.png
+27-기존이미지-변경없음.png
+28-바인드마운트-응답비교.png
+29-웹서버-기록종료.png
+30-볼륨-생성.png
+31-볼륨-컨테이너연결.png
+32-볼륨-삭제전-데이터.png
+33-볼륨-첫컨테이너삭제.png
+34-볼륨-새컨테이너연결.png
+35-볼륨-삭제후-데이터유지.png
+36-볼륨-기록종료.png
+37-git-버전확인.png
+docker-check-log.txt
+Dockerfile
+empty.txt
+git-setup-log.txt
+memo.txt
+practice-history.txt
+README.md
+terminal-log.txt
+ubuntu-operations-log.txt
+ubuntu-practice-log.txt
+volume-practice-log.txt
+web-server-log.txt
+PS C:\Users\user\Desktop\올인원M!\my-first-project> Stop-Transcript
+**********************
+Windows PowerShell 기록 끝
+종료 시간: 20261102145052
+**********************
+**********************
+Windows PowerShell 기록 시작
+시작 시간: 20261102152947
+사용자 이름: BOOK-SRBNAJB3UQ\user
+RunAs 사용자: BOOK-SRBNAJB3UQ\user
+구성 이름: 
+Machine: BOOK-SRBNAJB3UQ (Microsoft Windows NT 10.0.26200.0)
+호스트 응용 프로그램: C:\windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\user\AppData\Local\Programs\Microsoft VS Code\6d62b1d5da\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+프로세스 ID: 12236
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+기록이 시작되었습니다. 출력 파일은 .\my-first-project\git-setup-log.txt입니다.
+PS C:\Users\user\Desktop\올인원M!\my-first-project-github> git config --get user.name
+
+PS C:\Users\user\Desktop\올인원M!\my-first-project-github> git config --local user.name "sunflower129-max"
+
+PS C:\Users\user\Desktop\올인원M!\my-first-project-github> git config --get user.email
+
+PS C:\Users\user\Desktop\올인원M!\my-first-project-github> codex
+codex : 'codex' 용어가 cmdlet, 함수, 스크립트 파일 또는 실행할 수 있는 프로그램 이름으로 인식되지 않습니다. 이름이 정확한지 확인하고 경로가 포함된 경우 경로가 올바른지 검증한 다음 다시 시도하
+십시오.
+위치 줄:1 문자:1
++ codex
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (codex:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+codex : 'codex' 용어가 cmdlet, 함수, 스크립트 파일 또는 실행할 수 있는 프로그램 이름으로 인식되지 않습니다. 이름이 정확한지 확인하고 경로가 포함된 경우 경로가 올바른지 검
+증한 다음 다시 시도하십시오.
+위치 줄:1 문자:1
++ codex
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (codex:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\user\Desktop\올인원M!\my-first-project-github> docker ps -a --filter "name=volume-practice"
+
+PS C:\Users\user\Desktop\올인원M!\my-first-project-github> Start-Transcript -Path '.\my-first-project\volume-recheck-log.txt' -Append
+기록이 시작되었습니다. 출력 파일은 .\my-first-project\volume-recheck-log.txt입니다.
+PS C:\Users\user\Desktop\올인원M!\my-first-project-github> docker exec volume-practice-1 cat /data/message.txt
+
+PS C:\Users\user\Desktop\올인원M!\my-first-project-github> docker exec volume-practice-1 cat /data/message.txtdocker exec volume-practice-1 cat /data/message.txt
+
+PS C:\Users\user\Desktop\올인원M!\my-first-project-github> docker ps -a --filter "name=volume-practice"
+
+PS C:\Users\user\Desktop\올인원M!\my-first-project-github> Stop-Transcript
+기록이 중지되었습니다. 출력 파일은 C:\Users\user\Desktop\올인원M!\my-first-project-github\my-first-project\volume-recheck-log.txt입니다.
+PS C:\Users\user\Desktop\올인원M!\my-first-project-github> Start-Transcript -Path '.\my-first-project\volume-recheck-log.txt' -Append
+기록이 시작되었습니다. 출력 파일은 .\my-first-project\volume-recheck-log.txt입니다.
+PS C:\Users\user\Desktop\올인원M!\my-first-project-github> docker exec volume-practice-1 cat /data/message.txt
+My volume data survives
+PS C:\Users\user\Desktop\올인원M!\my-first-project-github> docker rm -f volume-practice-1
+volume-practice-1
+PS C:\Users\user\Desktop\올인원M!\my-first-project-github> docker ps -a --filter "name=volume-practice"
+CONTAINER ID   IMAGE          COMMAND            CREATED       STATUS       PORTS     NAMES
+285101cee9d0   ubuntu:24.04   "sleep infinity"   2 hours ago   Up 2 hours             volume-practice-2
+PS C:\Users\user\Desktop\올인원M!\my-first-project-github> docker exec volume-practice-2 cat /data/message.txt
+My volume data survives
+PS C:\Users\user\Desktop\올인원M!\my-first-project-github> Stop-Transcript
+기록이 중지되었습니다. 출력 파일은 C:\Users\user\Desktop\올인원M!\my-first-project-github\my-first-project\volume-recheck-log.txt입니다.
+PS C:\Users\user\Desktop\올인원M!\my-first-project-github> git status
+        my-first-project/web-server-log.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\user\Desktop\올인원M!\my-first-project-github> git log
+

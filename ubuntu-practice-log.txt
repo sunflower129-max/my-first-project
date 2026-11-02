@@ -1,0 +1,21 @@
+﻿**********************
+Windows PowerShell 기록 시작
+시작 시간: 20261102125752
+사용자 이름: BOOK-SRBNAJB3UQ\user
+RunAs 사용자: BOOK-SRBNAJB3UQ\user
+구성 이름: 
+Machine: BOOK-SRBNAJB3UQ (Microsoft Windows NT 10.0.26200.0)
+호스트 응용 프로그램: C:\windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\user\AppData\Local\Programs\Microsoft VS Code\6d62b1d5da\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+프로세스 ID: 18800
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+기록이 시작되었습니다. 출력 파일은 ubuntu-practice-log.txt입니다.
+PS C:\Users\user\Desktop\올인원M!\my-first-project> docker run -it --name ubuntu-practice ubuntu:24.04 bash
+

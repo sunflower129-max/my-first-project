@@ -1,0 +1,27 @@
+﻿
+  Id CommandLine                                                                
+  -- -----------                                                                
+   1 try { . "c:\Users\user\AppData\Local\Programs\Microsoft VS Code\6d62b1d5...
+   2 mkdir my-first-project                                                     
+   3 cd my-first-project                                                        
+   4 "나의 첫 개발 연습입니다" | Out-File memo.txt -Encoding utf8                         
+   5 Get-Content memo.txt                                                       
+   6 dir                                                                        
+   7 Copy-Item memo.txt memo-copy.txt                                           
+   8 Rename-Item memo-copy.txt memo-backup.txt                                  
+   9 dir                                                                        
+  10 mkdir practice                                                             
+  11 Move-Item memo-backup.txt practice                                         
+  12 dir practice                                                               
+  13 Remove-Item practice/memo-backup.txt                                       
+  14 dir practice                                                               
+  15 Remove-Item practice                                                       
+  16 dir                                                                        
+  17 pwd                                                                        
+  18 dir -Force                                                                 
+  19 New-Item empty.txt -ItemType File                                          
+  20 dir                                                                        
+  21 cd ..                                                                      
+  22 cd my-first-project                                                        
+
+
